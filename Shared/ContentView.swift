@@ -13,7 +13,10 @@ struct ContentView: View {
             .padding()
         Text("All good things come to an end")
             .padding()
+        Text("Testing branch, yalla")
+            .padding()
     }
+        
 }
 
 struct ContentView_Previews: PreviewProvider {
