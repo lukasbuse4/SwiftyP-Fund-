@@ -17,6 +17,8 @@
 		9FB68D7928910FD900B2B7B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB68D4F28910FD700B2B7B8 /* ContentView.swift */; };
 		9FB68D7A28910FD900B2B7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB68D5028910FD900B2B7B8 /* Assets.xcassets */; };
 		9FB68D7B28910FD900B2B7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB68D5028910FD900B2B7B8 /* Assets.xcassets */; };
+		9FB68D8F28911FE300B2B7B8 /* Model_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB68D8E28911FE300B2B7B8 /* Model_struct.swift */; };
+		9FB68D9028911FE300B2B7B8 /* Model_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB68D8E28911FE300B2B7B8 /* Model_struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		9FB68D6E28910FD900B2B7B8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB68D7228910FD900B2B7B8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9FB68D7428910FD900B2B7B8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		9FB68D8E28911FE300B2B7B8 /* Model_struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 		9FB68D4828910FD700B2B7B8 = {
 			isa = PBXGroup;
 			children = (
+				9FB68D9128911FFB00B2B7B8 /* Model */,
 				9FB68D4D28910FD700B2B7B8 /* Shared */,
 				9FB68D5C28910FD900B2B7B8 /* macOS */,
 				9FB68D6528910FD900B2B7B8 /* Tests iOS */,
@@ -139,6 +143,14 @@
 				9FB68D7428910FD900B2B7B8 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		9FB68D9128911FFB00B2B7B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FB68D8E28911FE300B2B7B8 /* Model_struct.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +313,7 @@
 			files = (
 				9FB68D7828910FD900B2B7B8 /* ContentView.swift in Sources */,
 				9FB68D7628910FD900B2B7B8 /* SwiftyP_Fund_App.swift in Sources */,
+				9FB68D8F28911FE300B2B7B8 /* Model_struct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +323,7 @@
 			files = (
 				9FB68D7928910FD900B2B7B8 /* ContentView.swift in Sources */,
 				9FB68D7728910FD900B2B7B8 /* SwiftyP_Fund_App.swift in Sources */,
+				9FB68D9028911FE300B2B7B8 /* Model_struct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
