@@ -19,6 +19,8 @@
 		9FB68D7B28910FD900B2B7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB68D5028910FD900B2B7B8 /* Assets.xcassets */; };
 		9FB68D8F28911FE300B2B7B8 /* Model_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB68D8E28911FE300B2B7B8 /* Model_struct.swift */; };
 		9FB68D9028911FE300B2B7B8 /* Model_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB68D8E28911FE300B2B7B8 /* Model_struct.swift */; };
+		9FB68D962891257C00B2B7B8 /* VM_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB68D952891257C00B2B7B8 /* VM_struct.swift */; };
+		9FB68D99289127A200B2B7B8 /* View_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB68D98289127A200B2B7B8 /* View_struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		9FB68D7228910FD900B2B7B8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9FB68D7428910FD900B2B7B8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		9FB68D8E28911FE300B2B7B8 /* Model_struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_struct.swift; sourceTree = "<group>"; };
+		9FB68D952891257C00B2B7B8 /* VM_struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VM_struct.swift; sourceTree = "<group>"; };
+		9FB68D98289127A200B2B7B8 /* View_struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		9FB68D4828910FD700B2B7B8 = {
 			isa = PBXGroup;
 			children = (
+				9FB68D9A289127AD00B2B7B8 /* View */,
+				9FB68D972891258800B2B7B8 /* VM */,
 				9FB68D9128911FFB00B2B7B8 /* Model */,
 				9FB68D4D28910FD700B2B7B8 /* Shared */,
 				9FB68D5C28910FD900B2B7B8 /* macOS */,
@@ -151,6 +157,22 @@
 				9FB68D8E28911FE300B2B7B8 /* Model_struct.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9FB68D972891258800B2B7B8 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				9FB68D952891257C00B2B7B8 /* VM_struct.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		9FB68D9A289127AD00B2B7B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FB68D98289127A200B2B7B8 /* View_struct.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +334,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FB68D7828910FD900B2B7B8 /* ContentView.swift in Sources */,
+				9FB68D99289127A200B2B7B8 /* View_struct.swift in Sources */,
+				9FB68D962891257C00B2B7B8 /* VM_struct.swift in Sources */,
 				9FB68D7628910FD900B2B7B8 /* SwiftyP_Fund_App.swift in Sources */,
 				9FB68D8F28911FE300B2B7B8 /* Model_struct.swift in Sources */,
 			);
